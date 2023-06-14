@@ -1,0 +1,82 @@
+\hypertarget{cartes_8h}{}\doxysection{src/cartes.h File Reference}
+\label{cartes_8h}\index{src/cartes.h@{src/cartes.h}}
+
+
+fichier en-\/tete du module cartes permet de gerer les cartes  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for cartes.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{cartes_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{cartes_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structsCarte}{s\+Carte}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{cartes_8h_a505783c61ca6b21b355368f562728a85}\label{cartes_8h_a505783c61ca6b21b355368f562728a85}} 
+typedef enum e\+Couleur {\bfseries e\+Couleur}
+\item 
+\mbox{\Hypertarget{cartes_8h_a9d65838f64bd8893a5ee7e585c4ea3c1}\label{cartes_8h_a9d65838f64bd8893a5ee7e585c4ea3c1}} 
+typedef struct \mbox{\hyperlink{structsCarte}{s\+Carte}} {\bfseries s\+Carte}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{cartes_8h_a093eda26f46d48ba6b7cfdc988c5bb9f}\label{cartes_8h_a093eda26f46d48ba6b7cfdc988c5bb9f}} 
+enum {\bfseries e\+Couleur} \{ {\bfseries Pique}, 
+{\bfseries treffle}, 
+{\bfseries Carreau}, 
+{\bfseries Coeur}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{cartes_8h_a1d860fd936e27c9939f696afb532ccc1}\label{cartes_8h_a1d860fd936e27c9939f696afb532ccc1}} 
+char {\bfseries parse\+Valeur} (int int\+\_\+val)
+\item 
+\mbox{\Hypertarget{cartes_8h_afc052c63e9a9e07439a9d6fbef0a64f3}\label{cartes_8h_afc052c63e9a9e07439a9d6fbef0a64f3}} 
+void {\bfseries afficher\+Carte} (\mbox{\hyperlink{structsCarte}{s\+Carte}} carte)
+\item 
+\mbox{\Hypertarget{cartes_8h_a8450598c5bbc31f93f5c8205b5b174a5}\label{cartes_8h_a8450598c5bbc31f93f5c8205b5b174a5}} 
+\mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$ {\bfseries init\+Jeu} ()
+\item 
+\mbox{\Hypertarget{cartes_8h_a3db7e926864ac7462a2f8f361b38ca2e}\label{cartes_8h_a3db7e926864ac7462a2f8f361b38ca2e}} 
+void {\bfseries melanger\+Jeu} (\mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$jeu)
+\item 
+\mbox{\Hypertarget{cartes_8h_a473d6d3248fd79b420e99d23814243d6}\label{cartes_8h_a473d6d3248fd79b420e99d23814243d6}} 
+\mbox{\hyperlink{structsCarte}{s\+Carte}} {\bfseries tirer\+Carte} (\mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$paquet)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+fichier en-\/tete du module cartes permet de gerer les cartes 
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}

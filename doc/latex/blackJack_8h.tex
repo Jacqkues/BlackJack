@@ -1,0 +1,109 @@
+\hypertarget{blackJack_8h}{}\doxysection{src/black\+Jack.h File Reference}
+\label{blackJack_8h}\index{src/blackJack.h@{src/blackJack.h}}
+
+
+fichier d\textquotesingle{}entete du module black\+Jack  
+
+
+{\ttfamily \#include \char`\"{}cartes.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}joueur.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}saisie.\+h\char`\"{}}\newline
+Include dependency graph for black\+Jack.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{blackJack_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{blackJack_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{blackJack_8h_ac00ae7ab1204333308d3400c69046d58}{deroulement\+Partie}} (\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{structbanque}{s\+Banque}} \mbox{\hyperlink{structbanque}{banque}}, \mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$paquet, int nb\+Joueurs)
+\begin{DoxyCompactList}\small\item\em procedure qui gere le deroulement de la partie \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{blackJack_8h_a303d22ce2796119645b78ef220d5345d}\label{blackJack_8h_a303d22ce2796119645b78ef220d5345d}} 
+void {\bfseries Faire\+Jouer\+Joueur} (\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$paquet)
+\item 
+void \mbox{\hyperlink{blackJack_8h_ad1aa0af08f3b5cf43843a30f743c65ba}{verifier\+Score}} (\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{structbanque}{s\+Banque}} \mbox{\hyperlink{structbanque}{banque}})
+\begin{DoxyCompactList}\small\item\em procedure qui verifie le score du joueur et de la banque \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+fichier d\textquotesingle{}entete du module black\+Jack 
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{blackJack_8h_ac00ae7ab1204333308d3400c69046d58}\label{blackJack_8h_ac00ae7ab1204333308d3400c69046d58}} 
+\index{blackJack.h@{blackJack.h}!deroulementPartie@{deroulementPartie}}
+\index{deroulementPartie@{deroulementPartie}!blackJack.h@{blackJack.h}}
+\doxysubsubsection{\texorpdfstring{deroulementPartie()}{deroulementPartie()}}
+{\footnotesize\ttfamily void deroulement\+Partie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$}]{joueur,  }\item[{\mbox{\hyperlink{structbanque}{s\+Banque}}}]{banque,  }\item[{\mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$}]{paquet,  }\item[{int}]{nb\+Joueurs }\end{DoxyParamCaption})}
+
+
+
+procedure qui gere le deroulement de la partie 
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em joueur} & pointeur sur le tableau de joueur \\
+\hline
+{\em banque} & banque de la partie \\
+\hline
+{\em paquet} & pointeur sur un tableau de carte \\
+\hline
+{\em nb\+Joueurs} & nombre de joueurs \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{blackJack_8h_ad1aa0af08f3b5cf43843a30f743c65ba}\label{blackJack_8h_ad1aa0af08f3b5cf43843a30f743c65ba}} 
+\index{blackJack.h@{blackJack.h}!verifierScore@{verifierScore}}
+\index{verifierScore@{verifierScore}!blackJack.h@{blackJack.h}}
+\doxysubsubsection{\texorpdfstring{verifierScore()}{verifierScore()}}
+{\footnotesize\ttfamily void verifier\+Score (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$}]{joueur,  }\item[{\mbox{\hyperlink{structbanque}{s\+Banque}}}]{banque }\end{DoxyParamCaption})}
+
+
+
+procedure qui verifie le score du joueur et de la banque 
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em joueur} & pointeur sur le joueur \\
+\hline
+{\em banque} & banque de la partie \\
+\hline
+\end{DoxyParams}

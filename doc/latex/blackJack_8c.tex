@@ -1,0 +1,101 @@
+\hypertarget{blackJack_8c}{}\doxysection{src/black\+Jack.c File Reference}
+\label{blackJack_8c}\index{src/blackJack.c@{src/blackJack.c}}
+
+
+fichier source du module black\+Jack  
+
+
+{\ttfamily \#include \char`\"{}black\+Jack.\+h\char`\"{}}\newline
+Include dependency graph for black\+Jack.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{blackJack_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{blackJack_8c_ad1aa0af08f3b5cf43843a30f743c65ba}{verifier\+Score}} (\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{structbanque}{s\+Banque}} \mbox{\hyperlink{structbanque}{banque}})
+\begin{DoxyCompactList}\small\item\em procedure qui verifie le score du joueur et de la banque \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{blackJack_8c_a8f7e77419c6c14d018459d10060c542f}{deroulement\+Partie}} (\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{structbanque}{s\+Banque}} \mbox{\hyperlink{structbanque}{banque}}, \mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$paquet, int nb\+Joueurs)
+\begin{DoxyCompactList}\small\item\em procedure qui gere le deroulement de la partie \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{blackJack_8c_a303d22ce2796119645b78ef220d5345d}\label{blackJack_8c_a303d22ce2796119645b78ef220d5345d}} 
+void {\bfseries Faire\+Jouer\+Joueur} (\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$\mbox{\hyperlink{structjoueur}{joueur}}, \mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$paquet)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+fichier source du module black\+Jack 
+
+fichier source du module cartes
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{blackJack_8c_a8f7e77419c6c14d018459d10060c542f}\label{blackJack_8c_a8f7e77419c6c14d018459d10060c542f}} 
+\index{blackJack.c@{blackJack.c}!deroulementPartie@{deroulementPartie}}
+\index{deroulementPartie@{deroulementPartie}!blackJack.c@{blackJack.c}}
+\doxysubsubsection{\texorpdfstring{deroulementPartie()}{deroulementPartie()}}
+{\footnotesize\ttfamily deroulement\+Partie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$}]{joueur,  }\item[{\mbox{\hyperlink{structbanque}{s\+Banque}}}]{banque,  }\item[{\mbox{\hyperlink{structsCarte}{s\+Carte}} $\ast$}]{paquet,  }\item[{int}]{nb\+Joueurs }\end{DoxyParamCaption})}
+
+
+
+procedure qui gere le deroulement de la partie 
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em joueur} & pointeur sur le tableau de joueur \\
+\hline
+{\em banque} & banque de la partie \\
+\hline
+{\em paquet} & pointeur sur un tableau de carte \\
+\hline
+{\em nb\+Joueurs} & nombre de joueurs \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{blackJack_8c_ad1aa0af08f3b5cf43843a30f743c65ba}\label{blackJack_8c_ad1aa0af08f3b5cf43843a30f743c65ba}} 
+\index{blackJack.c@{blackJack.c}!verifierScore@{verifierScore}}
+\index{verifierScore@{verifierScore}!blackJack.c@{blackJack.c}}
+\doxysubsubsection{\texorpdfstring{verifierScore()}{verifierScore()}}
+{\footnotesize\ttfamily void verifier\+Score (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structjoueur}{s\+Joueur}} $\ast$}]{joueur,  }\item[{\mbox{\hyperlink{structbanque}{s\+Banque}}}]{banque }\end{DoxyParamCaption})}
+
+
+
+procedure qui verifie le score du joueur et de la banque 
+
+\begin{DoxyAuthor}{Author}
+Jacques 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 decembre 2022 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em joueur} & pointeur sur le joueur \\
+\hline
+{\em banque} & banque de la partie \\
+\hline
+\end{DoxyParams}
