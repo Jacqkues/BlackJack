@@ -1,4 +1,4 @@
-#BlackJack en C
+# BlackJack en C
 
 ## Compilation
 * Pour compiler le projet, il faut lancer la commande `make` dans le terminal.
